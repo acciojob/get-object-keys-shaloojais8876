@@ -1,9 +1,9 @@
 //your JS code here. If required.
-let student = {
-	name : "shalini jaiswal"
-}
-Object.prototype.getkeys = function(){
-	// 'this' refers to the object on which the method is called
+const student = {
+	name: "shalini"
+};
+
+Object.prototype.getKeys = function() {
+	//'this' is referencing to object 
 	return Object.keys(this);
-}
-console.log(student.getkeys());
+};
